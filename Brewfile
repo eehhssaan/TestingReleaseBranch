@@ -1,0 +1,12 @@
+tap "heroku/brew"
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/core"
+tap "homebrew/services"
+brew "gh"
+brew "git"
+brew "postgresql", restart_service: true
+brew "rbenv"
+brew "redis"
+brew "wget"
+brew "heroku/brew/heroku"
